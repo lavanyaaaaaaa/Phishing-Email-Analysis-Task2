@@ -1,83 +1,63 @@
-# Phishing-Email-Analysis-Task2
-
-# 📧 Phishing Email Analysis Report
+# 📧 Phishing Email Analysis Task
 
 ## 🔐 Key Concepts
 Phishing, email spoofing, header analysis, social engineering, threat detection
 
-## 📌 Objective
-To analyze a suspicious email and identify indicators of phishing using free tools and manual inspection.
+## 🎯 Objective
+Analyze a suspicious email to identify phishing indicators using free tools and manual inspection techniques.
 
 ---
 
-## 📥 Sample Email Summary
+## 📥 Email Sample Details
 
-- **Subject**: "Important Notice: Account Suspended"
-- **From**: `support@paypall.com`
-- **Date**: August 5, 2025
+- **Sender**: Amazon Account Security `<alert@amaz0n-support.com>`
+- **Subject**: 🚨 Urgent: Suspicious Login Attempt Detected
+- **Date**: 5 Aug 2025
+- **Attachment**: `Amazon_Lock_Info.html`
+- **Suspicious Link**: `http://amaz0n-verify-login.com`
+
+---
+
+## 🔍 Phishing Indicators Found
+
+| Indicator               | Description |
+|-------------------------|-------------|
+| 📧 Spoofed Email        | From `amaz0n-support.com` (misspelled domain) |
+| 🕵️ Header Analysis      | SPF fail, DKIM missing, IP from Russia |
+| 🔗 Suspicious URL        | Hover reveals phishing URL |
+| ⚠️ Urgent Language       | “Your account will be suspended in 24 hours” |
+| 🧪 Grammar/Spelling      | Slightly unnatural language |
+| 📎 Attachment            | `.html` login form that mimics Amazon |
+| 🎯 Social Engineering    | Creates fear of account compromise |
 
 ---
 
 ## 🛠 Tools Used
 
-- Email Header Analyzer: [MXToolbox](https://mxtoolbox.com/EmailHeaders.aspx)
-- VirusTotal for link inspection: [https://www.virustotal.com/](https://www.virustotal.com/)
-- Manual inspection (hover links, sender address)
+- **MXToolbox Header Analyzer**: [https://mxtoolbox.com/EmailHeaders.aspx](https://mxtoolbox.com/EmailHeaders.aspx)
+- **VirusTotal URL Scanner**: [https://www.virustotal.com/](https://www.virustotal.com/)
+- **Manual inspection** (link hover, grammar check)
 
 ---
 
-## 🔍 Phishing Indicators Identified
+## 🧾 Files Included in Repo
 
-1. **Spoofed Email Address**  
-   - Display name: PayPal  
-   - Actual address: `support@paypall.com` (misspelled domain)
-
-2. **Email Header Analysis**
-   - SPF: Fail  
-   - DKIM: Not present  
-   - Sending IP: Originates from suspicious geolocation
-
-3. **Suspicious Link**
-   - Hyperlink text: `https://paypal.com/verify`
-   - Actual link: `http://malicious-phish.xyz/login`
-
-4. **Urgent Language**
-   - “Your account will be suspended in 24 hours.”
-   - Classic pressure tactic
-
-5. **Grammar/Spelling Errors**
-   - “You’re account has been suspened.”
-
-6. **Attachment**
-   - `secureform.html` — contains embedded login form
-
----
-
-## 📷 Screenshots
-
-- Header analysis results
-- Hovered link mismatch
-
-*(Screenshots attached in repo)*
+| File | Purpose |
+|------|---------|
+| `phishing_sample.txt` | The fake phishing email |
+| `raw_header.txt` | Header copied into MXToolbox |
+| `suspicious_link_report.txt` | VirusTotal scan result |
+| `Amazon_Lock_Info.html` | Simulated malicious attachment |
+| `README.md` | Final summary/report |
 
 ---
 
 ## ✅ Conclusion
 
-This email shows **strong signs of phishing** using:
-- Social engineering (urgency)
-- Email spoofing
-- Malicious links
-- Technical red flags in headers
+This email demonstrates multiple classic phishing characteristics:
+- Spoofed sender
+- Social engineering tactics
+- Dangerous links
+- Technical header failures
 
-It is confirmed as **phishing** and should not be trusted.
-
----
-
-## 📎 Files Included
-
-- `phishing_sample.txt`
-- `header_analysis_screenshot.png`
-- `suspicious_link_report.txt`
-
----
+It is **confirmed phishing** and should be avoided or reported.
