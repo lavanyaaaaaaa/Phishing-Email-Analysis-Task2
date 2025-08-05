@@ -1,0 +1,11 @@
+URL Analyzed: http://amaz0n-verify-login.com  
+Tool Used: VirusTotal (https://virustotal.com)
+
+Findings:
+- Detected as phishing by 35+ security vendors
+- Hosted on suspicious IP linked to prior phishing campaigns
+- Pretends to be Amazon login, but domain is not owned by Amazon
+- WHOIS info hidden (another red flag)
+
+Conclusion:
+This is a fake login page intended to steal credentials.
