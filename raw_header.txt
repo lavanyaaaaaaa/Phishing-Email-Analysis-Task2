@@ -1,0 +1,14 @@
+Return-Path: <alert@amaz0n-support.com>
+Received: from smtp.spamhost.ru (185.232.54.12)
+    by mx.google.com with ESMTPS id g23si1478918qkg.412.2025.08.05.01.00.00
+    for <yourname@example.com>
+    (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256);
+    Mon, 05 Aug 2025 01:00:00 -0700 (PDT)
+Authentication-Results: mx.google.com;
+   spf=fail (google.com: domain of amaz0n-support.com does not designate 185.232.54.12 as permitted sender) smtp.mailfrom=alert@amaz0n-support.com;
+   dkim=none header.i=@amaz0n-support.com;
+   dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=amaz0n-support.com
+From: Amazon Account Security <alert@amaz0n-support.com>
+To: yourname@example.com
+Subject: 🚨 Urgent: Suspicious Login Attempt Detected
+Date: Mon, 5 Aug 2025 07:21:45 +0530
