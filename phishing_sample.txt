@@ -1,0 +1,26 @@
+From: Amazon Account Security <alert@amaz0n-support.com>
+To: yourname@example.com
+Subject: 🚨 Urgent: Suspicious Login Attempt Detected
+Date: Mon, 5 Aug 2025 07:21:45 +0530
+Message-ID: <CAG1234xOQFw9jf@emailspammer.net>
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+
+Dear Customer,
+
+We noticed a suspicious sign-in attempt to your Amazon account from an unknown device located in Lagos, Nigeria.
+
+If this was **not you**, your account might be at risk. For your safety, we have temporarily locked your account.
+
+✅ Please verify your identity immediately by clicking the link below:
+
+👉 [Verify Your Account Now](http://amaz0n-verify-login.com)
+
+If you do not verify within 24 hours, your account will be **permanently suspended**.
+
+Thank you for choosing Amazon.
+
+Sincerely,  
+Amazon Security Team
+
+Attachment: Amazon_Lock_Info.html
